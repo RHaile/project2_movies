@@ -150,15 +150,15 @@ def factors():
     return render_template('top_movies.html')
 
 @app.route('/release_date.html')
-def data():
+def release_data():
     return render_template('release_date.html')
     
 @app.route('/profit_bubble.html')
-def movie_search():
+def profit_bubble():
     return render_template('profit_bubble.html')
     
 @app.route('/profit_bar.html')
-def factors():
+def profit_bar():
     return render_template('profit_bar.html')
 
 
