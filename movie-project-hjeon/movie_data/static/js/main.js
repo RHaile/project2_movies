@@ -22,7 +22,7 @@
     // of different video formats to add
     src: [
       {
-        src: 'night.mp4',
+        src: '../static/js/night.mp4',
         type: 'video/mp4'
       },
       {
